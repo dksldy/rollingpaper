@@ -47,8 +47,8 @@ function App() {
     <div className="app" id="app-root">
       <main className="app__container">
         <ProfileHeader
-          name="홍길동"
-          description="안녕하세요! 여러분의 따뜻한 메시지를 기다리고 있습니다. 함께했던 소중한 순간들, 응원의 말 한마디, 무엇이든 좋으니 편하게 남겨주세요. 여러분의 메시지 하나하나가 큰 힘이 됩니다! 💖"
+          name="%이름%"
+          description="%자기소개%"
         />
         <MessageForm onSubmit={handleSubmit} />
         <MessageList messages={messages} />
